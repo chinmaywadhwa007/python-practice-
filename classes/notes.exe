@@ -1,0 +1,50 @@
+here we will learn about the classes and the inharitance 
+
+let's explain class step by step with example
+step 1 creating a class
+class chai():
+    origin = "india" we created class by calling through name called chai()
+    this  origin is created inside the class is called class attributes 
+    it belongs to class itelf.
+
+step 2  will be accessing class atributes 
+print(chai.origin) output will be india because it belongs to the class
+
+
+step 3 adding another class attribute dynamically
+chai.is_hot =True 
+now this attribute also become the part of this class 
+chai
+ ├── origin = "india"
+ └── is_hot = True
+
+step 4 creating object
+masala = chai()
+Now masala is an object (instance) of class chai.
+
+step 5 accesssing attributes through object 
+print(f"masala{masala.origin}"
+output masala india )
+
+same thing happens with here print(f"masala {masala.is_hot}")
+masala True
+because object borrows the class attribute
+
+
+step 6 overriding attribute in object
+
+ masla.chai.is_hot = False
+ IMPORTANT PART 🚨
+
+Now Python creates a NEW attribute inside the object.
+
+Now memory looks like:
+
+chai
+ ├── origin = "india"
+ └── is_hot = True
+
+masala
+ └── is_hot = False
+
+ IMPORTANT note masala is an instance of chai

@@ -1,0 +1,4 @@
+| Symbol | Meaning                             |
+| ------ | ----------------------------------- |
+| `/`    | only positional arguments before it |
+| `*`    | only keyword arguments after it     |

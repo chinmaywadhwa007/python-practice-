@@ -1,0 +1,14 @@
+why we use the sets for the python
+to remove the multiple elements
+fast searching
+mathematical operation
+union to combine the two sets in the one 
+adding items in the setes
+
+the diff between set and in the list is 
+                        Set   vs   List
+Feature	            List	            Set
+Duplicates allowed	✅	               ❌ 
+Ordered 	        ✅	               ❌
+Fast searching	    ❌	               ✅
+Indexing	        ✅	               ❌

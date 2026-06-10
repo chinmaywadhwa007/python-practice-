@@ -1,0 +1,13 @@
+what is the diff between *agrs and  **kwargs 
+
+args is an positional arguments 
+collects extra positional values into  a tuple
+
+kwargs keyword arguments 
+collects extra named arguments into dictonary 
+
+"Feature"	    "*args"	            "**kwargs"
+Full form	arguments	        keyword arguments
+Takes	    positional values	named values
+Stores in	tuple	            dictionary
+Symbol	    *	                **

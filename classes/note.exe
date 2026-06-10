@@ -1,0 +1,9 @@
+class is basically a blueprint template for creating an object 
+example:
+blueprint=class,
+actual house =object 
+
+a class define:
+    properties = variables/data
+    behaviors =functions/method
+    
