@@ -8,4 +8,24 @@ Automate tasks like reading configs or saving outputs.
 
 there are the diff terms for opening the files using python file handling 
 
-1st one is open() function which require file path and as arguments 
+1st one is open() function which require file path and as arguments
+
+there are diff types of file handling arguments where we can use to read files from diff part of the or folder 
+1st we have read method where we just ready it by just 
+
+File handling allows a Python program to store data permanently in files and retrieve it later.
+why we use it data will lost when the file close or the program stop running 
+but if we use the file handling data remains saved after the program ends 
+
+
+what do u mean by the W and A mode in file handlling ?
+means W means overriting exisiting content 
+where A means add content at the end 
+
+OS stand for the inbuilt operating system that allows your python code to inreect with the operating system (window linux macOS)
+The exists() function belongs to the os.path module.
+
+Without importing os, Python won't know what os means.
+
+for reading the file 
+x is not the file. x is just a variable that temporarily stores one line at a time

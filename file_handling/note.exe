@@ -1,0 +1,17 @@
+suppose you have file thousend of user like instagram only for stories file
+imagine when user sign in manual way 
+open file 
+
+scroll  to buttom
+
+add user 
+
+safe files 
+
+
+program way...>with open ("user.txt","a") as file:
+                    file.write("new_user\n")
+this happens automatically in milliseconds 
+
+
+let's give a try on my file suppose user has the coin in there acc 10 coin and u didn't connected to the db right now then when server restart it will remove that 10 points then the file handling comes in the pitcher it save the data of the user as a text file then data can be update delte read all  these things works fine 

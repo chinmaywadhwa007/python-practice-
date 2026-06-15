@@ -1,0 +1,15 @@
+if somebody ask how decorators works in the python ??
+means when the inner function takes the input from the outer function and print it together is called the decorators this is the wrong explanation is called clousers not the decorators
+
+correct way of explanation
+is a def that makes another function add some behavior to it and return with the new function without changing it modifying function 
+work flow of the code how it works 
+"decorator" takes "func" as input.
+wrap"per adds new "behavior".
+"wrapper" calls the "original func."
+"decorator" returns "wrapper".
+The "original function" remains "unchanged."
+
+new keyword to work precies with decorator@
+
+"functools.wraps" is a "decorator" used inside custom "decorators". It copies the "metadata" of the original "function (__name__, __doc__, etc".) to the "wrapper function", so the decorated function still appears as the original function instead of the wrapper. This is "useful" for "debugging, documentation, introspection, and frameworks" that rely on function metadata
